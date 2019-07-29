@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         paddingTop: 30,
         paddingRight: 10,
         paddingBottom: 10,
-        backgroundColor: Platform.OS === 'ios' ? 'blue' : '#35605a',
+        backgroundColor: Platform.OS === 'ios' ? 'orange' : '#35605a',
         flex: 1,
         flexDirection: 'row'
     },
@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
     },
     logoStyle: {
         flex: 1,
-        width: undefined,
-        height: undefined
+        width: 100,
+        height: 100
     }
 });
 
@@ -34,6 +34,7 @@ export default class Header extends Component {
     }
 
     toggleUser = () => {
+        // When a user clicks, set the isLoggedIn to the opposite of what it was in the previous state
         this.setState(prevState => {
             return { isLoggedIn: !prevState.isLoggedIn };
         })
@@ -44,8 +45,9 @@ export default class Header extends Component {
         return (
             <View style={styles.headStyle}>
                 <Image
+                    source={require('./img/three.jpg')}
                     style={styles.logoStyle}
-                    source={ require('./img/one.JPG')} />
+                />
                 <Text
                     onPress={this.toggleUser}
                     style={styles.headText}
