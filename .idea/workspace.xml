@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ed3175-721c-42cb-bc92-9cf99dba9182" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sections/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/sections/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sections/img/one.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sections/img/two.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sections/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/sections/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +45,10 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/sections/img" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/sections/img" />
     </key>
   </component>
@@ -77,7 +78,9 @@
       <workItem from="1564158175035" duration="748000" />
       <workItem from="1564159261325" duration="29000" />
       <workItem from="1564159314027" duration="2183000" />
-      <workItem from="1564266966136" duration="4041000" />
+      <workItem from="1564266966136" duration="4331000" />
+      <workItem from="1564590661000" duration="9000" />
+      <workItem from="1565097867437" duration="8374000" />
     </task>
     <servers />
   </component>

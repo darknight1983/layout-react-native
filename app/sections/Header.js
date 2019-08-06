@@ -45,7 +45,7 @@ export default class Header extends Component {
         return (
             <View style={styles.headStyle}>
                 <Image
-                    source={require('./img/three.jpg')}
+                    source={require('./img/iconjpg.jpg')}
                     style={styles.logoStyle}
                 />
                 <Text
